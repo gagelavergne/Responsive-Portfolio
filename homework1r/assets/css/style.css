@@ -390,22 +390,22 @@ a, a:visited {
 
 	#portfolio {
 			width: 580px;
-		height: 800px;
-		margin-left: 0px;
-		float: left;
+			height: 800px;
+			margin-left: 0px;
+			float: left;
 
 	}
 	#row {
-	display: inline-flex;
-	margin-left: 90px; 
+	
+	margin-left: 60px; 
 	margin-top: 40px;
 }
-#hed {
+	#hed {
 	float: left;
 	
 	
 }
-#line {
+	#line {
 	margin-top: 30px;
 }
 
@@ -471,11 +471,12 @@ a, a:visited {
 
 #portfolio {
 	width: 438px;
-	height: 2000px;
+	height: 1700px;
+	display: block;
 }
 
 #topic {
-		margin-left: 20px;
+		margin-left: -10px;
 		margin-top:10px;
 	}
 
@@ -483,6 +484,13 @@ a, a:visited {
 	width: 300px;
 	height: 300px;
 }
+ 
+#fix2 {
+	margin-left: -10px;
+}
+
+
+
 }
 
 

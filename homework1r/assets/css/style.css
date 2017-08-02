@@ -188,6 +188,7 @@ body {
 .imagewrapper {
 
 	position: relative;
+	margin-top: 20px;
 }
 
 
@@ -331,7 +332,7 @@ a, a:visited {
 
 	#topic {
 		margin-left: 20px;
-		margin-top:10px;
+		
 	}
 
 
@@ -471,12 +472,12 @@ a, a:visited {
 
 #portfolio {
 	width: 438px;
-	height: 1700px;
+	height: 1800px;
 	display: block;
 }
 
 #topic {
-		margin-left: -10px;
+		margin-left: 20px;
 		margin-top:10px;
 	}
 
@@ -486,7 +487,7 @@ a, a:visited {
 }
  
 #fix2 {
-	margin-left: -10px;
+	margin-left: 20px;
 }
 
 

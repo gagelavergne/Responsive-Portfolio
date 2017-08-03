@@ -164,7 +164,8 @@ body {
 #row {
 	
 	margin-left: 25px; 
-	margin-top: 40px;
+	margin-top: 40px;{
+	}
 }
 
 
@@ -278,15 +279,32 @@ input[type=submit]:hover {
 	margin-top: 20px;
 }
 
-
-a, a:hover { 
-		  text-decoration: underline;
-
+a {
+	color:#777777;
+	text-decoration: none;
 }
 
-a, a:visited {
-    color: #777777;
+ a:hover { 
+		  transition: all .2s ease-in;
+		  -webkit-transition: all .2s ease-in;
+		  -moz-transition: all .2s ease-in;
+		  
+		  color:#4aaaa5;
+		  
+}
+
+a#active {
+    color: #4aaaa5;
     text-decoration: none;
+}
+
+#name a {
+	color: white;
+}
+
+#name a:hover {
+	color: #ccc;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 980px) {
